@@ -1,11 +1,11 @@
-// To run go to folder in terminal and 'node [path].js'
+//To run go to folder in terminal and 'node [path].js'
 
 const { connected } = require("process")
 
-// Hello World
+//Hello World
 console.log('Hello World!')
 
-// Variables -> var up to 2015, let and const 2015+
+//Variables -> var up to 2015, let and const 2015+
 var firstName = 'John' // var can be redeclared
 let lastName = 'Smith' //let cannot be redeclared
 console.log(firstName + ' ' + lastName)
