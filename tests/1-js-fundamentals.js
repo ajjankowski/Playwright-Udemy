@@ -57,7 +57,7 @@ console.log(result)
 
 //Equality operators
 var x = 1
-console.log(x == '1')  //true,  compares values (lose comparison)
+console.log(x == '1')  //true,  compares values (loose comparison)
 console.log(x === '1') //false, compares values and data type (strict comparison)
 
 //Logical operators
