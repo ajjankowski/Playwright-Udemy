@@ -119,10 +119,6 @@ function printName(name, lastName) {
 }
 printName('Mike', 'Smith')
 
-//Imports
-//import { functionName } from '../folder/file.js'
-//import * as helper from '../folder/file.js'
-
 //Class
 class CustomerDetails {
     printFirstName(firstName) {
@@ -132,3 +128,16 @@ class CustomerDetails {
 
 var customerDetails = new CustomerDetails()
 customerDetails.printFirstName(firstName)
+
+// Class that can be exported
+class CustomerDetails {
+    printFirstName(firstName) {
+        console.log(firstName)
+    }
+}
+
+export const customerDetails = new CustomerDetails()
+
+//Imports
+//import { functionName } from '../folder/file.js'
+//import * as helper from '../folder/file.js'
